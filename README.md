@@ -1,3 +1,6 @@
+Louise Aas Holm
+Childhood Obesity
+
 TODO: Add more to the title of your project here
 
 # LearnR3:
