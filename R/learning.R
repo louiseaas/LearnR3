@@ -16,3 +16,4 @@ mean(2:6)
 library(tidyverse)
 r3::check_git_config()
 
+#Did I complete the exercise correctly?
