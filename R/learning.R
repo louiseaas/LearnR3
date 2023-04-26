@@ -98,3 +98,21 @@ nhanes_modified <- nhanes_small %>%
     mutate(mean_arterial_pressure = ((2*bp_sys_ave)+bp_sys_ave)/3,
            young_child = if_else(age <6, "Yes", "No"))
 nhanes_modified
+
+# Creating summary statistics ---------------------------------------------
+# NOTE: na rm removes all variables with NA = TRUE
+nhanes_small %>%
+    summarise(max_bmi = max(bmi, na.rm = TRUE),
+              min_bmi = min(bmi, na.rm = TRUE))
+
+nhanes_small %>%
+    filter(!is.na(diabetes)) %>%
+    group_by(diabetes) %>%
+    summarise(mean_age = mean(age, na.rm = TRUE),
+            mean_bmi = mean(bmi, na.rm = TRUE)) %>%
+    ungroup()
+
+# Saving data
+readr::write_csv(nhanes_small, here::here("data/nhanes_small.csv"))
+
+
