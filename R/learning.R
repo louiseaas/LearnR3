@@ -18,4 +18,5 @@ r3::check_git_config()
 
 #Did I complete the exercise correctly?
 
-
+#This will be used for testing out Git
+#When a conflict happens
