@@ -2,6 +2,7 @@ Louise Aas Holm
 Childhood Obesity
 
 Added this sentence locally
+Added this sentence remotely
 
 TODO: Add more to the title of your project here
 
@@ -38,4 +39,3 @@ For more information on this folder and file workflow and setup, check
 out the [prodigenr](https://rostools.github.io/prodigenr) online
 documentation.
 
-prodigenr::setup_with_git()
