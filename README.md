@@ -2,7 +2,7 @@ Louise Aas Holm
 Childhood Obesity
 
 Added this sentence locally
-Added this sentence remotely
+Removed this sentence remotely
 
 TODO: Add more to the title of your project here
 
